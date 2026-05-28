@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>forms</title>
+    </head>
+    <body><style>
+        *{
+            margin: 0;
+        }
+        
+        form{
+            background-color: rgb(0, 255, 149);
+        }
+        body{
+            background-color: rgb(23, 237, 230);
+        }
+        label{
+            font-family: algerian;
+            color: crimson;
+        }
+        input{
+            background-color: #FFFF;
+            size-adjust: calc(2);
+        }
+        textarea{
+            background-color: #FFFF;
+        }
+
+    </style>
+        <form>
+        <table cellpadding="20">
+           <th></th><th><label>WELCOME</label></th><th></th>
+            <tr><td><label>Name : </label></td><td><input type="text" placeholder="Enter your Name" required></td></tr>
+            <tr><td><label>Email : </label></td><td><input type="email" placeholder="name@gamil.com" required></td></tr>
+            <tr><td><label>Phone : </label></td><td><input type="tel" placeholder="+254..."></td></tr>
+            <tr><td><label>Address : </label></td><td><input type="text" placeholder="Nairobi,Kenya"></td></tr>
+            <tr><td><label>Password : </label></td><td><input type="password" required maxlength="4" placeholder="**** 4 character"></td></tr>
+            <tr><td><label>About : </label></td><td><textarea placeholder="Tell us your Hobby"></textarea></td></tr>
+            <tr><td></td><td><input type="submit" value="Submit"></td>
+            <td><a href="https://github.com/elvis6093" >SignUp</a></td>
+        </table>
+        </form>
+    </body>
+</html>
