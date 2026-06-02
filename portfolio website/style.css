@@ -1,0 +1,54 @@
+body{
+    text-align: center;
+}
+nav h{
+    color: blue;
+    font-weight: bold;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+.nav-links{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+.nav-links a{
+    text-decoration: none;
+    color: black;
+
+}
+.buttonbar{
+    text-align: center;
+    padding: 100px 20px;
+    background-color: lightblue;
+}
+.buttonbar h1{
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+.buttonbar p{
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.btnView, .btnContc{
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 18px;
+}
+.btnView{
+    background-color: #2196f3;
+    color: white;
+}
+.btnContc{
+    border: 2px solid #2196f3;
+    color: #2196f3;
+}
