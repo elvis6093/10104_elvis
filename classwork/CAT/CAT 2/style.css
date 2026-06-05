@@ -1,0 +1,44 @@
+body{
+    background-color: beige;
+}
+caption{
+    font-weight: bolder;
+    font-size: 30px;
+    color: green;
+}
+table{
+    padding: 20px;
+    border-spacing: 20px;
+}
+.required{
+    color: #e53e3e;
+}
+td:first-child{
+    font-weight: bold;
+}
+::placeholder{
+    color: blueviolet;
+}
+#submit{
+    color: blue;
+    background-color: aqua;
+}
+.marquee{
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    
+}
+.marquee p{
+    display: inline-block;
+    animation: moveRight 20s linear infinite;
+    color: blue;
+}
+@keyframes moveRight {
+    from{
+        transform: translateX(-100%);
+    }
+    to{
+        transform: translateX(100%);
+    }
+}
